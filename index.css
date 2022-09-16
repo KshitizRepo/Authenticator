@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    box-shadow: inset 50px;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5)),( rgba(0,0,0,0.5)), url(/pexels-hasan-albari-1229861.jpg);
+    background-position: center;
+    background-size: auto;
+    background-image: url("pexels-hasan-albari-1229861.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.wrapper{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px;
+    height: 100vx;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: none;
+    box-shadow: 1px 1px 2px rgb(123, 122, 61);
+   
+    flex-direction: column;
+ 
+  
+}
+
+.wrapper h2{
+    color: rgb(69, 186, 186);
+    text-align: center;
+}
